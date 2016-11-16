@@ -14,7 +14,7 @@ html {
 }
 
 h1 {
-  background-color: `rgba(0, 0, 0, .5)`;
+  background-color: `rgba(0, 0, 0, .5);
   color: #fff;
   font-size: 4rem;
 }
@@ -25,11 +25,17 @@ body{
 
 p {
   color: #000;
-  background-color: `rgba(0, 0, 0, .5)`;
+  background-color: `rgba(0, 0, 0, .5);
   font-size: 2rem;
+  font-style: italic;
+  margin: 0;
+  left: 0;
+  bottom: 0;
 }
+
 .banner {
   position: relative;
+  overflow: hidden;
 }
 .banner-content {
   padding: 0 1rem;
