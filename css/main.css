@@ -6,6 +6,7 @@
 
 html {
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
 *, *::before, *::after {
@@ -16,6 +17,10 @@ h1 {
   background-color: `rgba(0, 0, 0, .5)`;
   color: #fff;
   font-size: 4rem;
+}
+
+body{
+  margin: 0;
 }
 
 p {
@@ -30,4 +35,9 @@ p {
   padding: 0 1rem;
   position: absolute;
   bottom: 1rem;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
 }
