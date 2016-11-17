@@ -27,9 +27,8 @@ p {
   color: #000;
   font-size: 2rem;
   font-style: italic;
-  margin: 0;
   left: 0;
-  bottom: 0;
+  bottom: .5em;
   transform: translateX(-50%);
 }
 
