@@ -6,41 +6,44 @@
 
 html {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-h1 {
-  background-color: `rgba(0, 0, 0, .5);
+h2 {
+  background-color: rgba(0, 0, 0, .5);
   color: #fff;
   font-size: 4rem;
 }
 
-body{
+body {
   margin: 0;
 }
 
 p {
   color: #000;
-  background-color: `rgba(0, 0, 0, .5);
   font-size: 2rem;
   font-style: italic;
   margin: 0;
   left: 0;
   bottom: 0;
+  transform: translateX(-50%);
 }
 
 .banner {
   position: relative;
   overflow: hidden;
+  max-height: 500px;
 }
+
 .banner-content {
   padding: 0 1rem;
   position: absolute;
   bottom: 1rem;
+  width: 100%;
 }
 
 .img-flex {
